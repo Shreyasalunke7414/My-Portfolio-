@@ -1,0 +1,175 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0; left:0; right:0;
+
+    padding:0px 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    font-size: 15px;
+    color:black;
+    display: block;
+    border-radius: 150px;
+}
+.navbar ul{
+    list-style: none;
+    
+}
+.navbar ul li{
+    position: static;
+    float: left;
+    
+}
+.navbar ul li a{
+    font-size: 15px;
+    padding: 20px;
+    color:black;
+    display: block;
+}
+.navbar ul li a:hover{
+    background: black;
+    color:#ffff;
+    border-radius: 150px;
+    
+}
+#demo{
+    margin:200px 200px;
+
+}
+#A{
+    
+     height: 345px;
+     width: 300px; 
+     margin-top: -650px;
+     margin-left:700px;
+}
+
+
+
+#skills{
+     
+    text-align: center;
+}
+#My{
+     
+    text-align: center;
+}
+#front{
+    text-align: center;
+}
+.progress-title{
+    width:100%;
+    height:auto;
+}
+.progress-title h3{
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+    margin:0 0 20px;
+}
+.progress{
+    height:12px; 
+    border-radius: 20px;
+    border:1px solid black;
+    box-shadow: 0 2px 2px black;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius:20px;
+    border:1px solid black;
+    transition-duration:1s;
+    transition-delay:1s;
+}
+.progress .progress-value{
+    width:65px;
+    height:25px;
+    line-height: 25px;
+    background: black;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border:1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right:60px;
+}
+
+
+
+#contact{
+    text-align: center;
+}
+#get{
+    text-align: center;
+}
+#call{
+    text-align: center;
+       
+}
+#all{
+    text-align: center;
+    margin-left: 75px;
+}
+#thanks{
+    text-align: center;
+    font-size: 28px;
+    margin-left:75px ;
+    text-shadow:0 1px 1px black;  
+}
+
+
+
+
+#about{
+    text-align: center;
+}
+#hello{
+    text-align: center;
+    font-size: 15px;  
+}
+#edu{
+    text-decoration-line: underline;
+
+}
+
+
+.som1 ul {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.som1 ul li {
+    list-style: circle;
+}
+
+.som1 {
+    column-count: 3;
+    margin-top: 0;
+    column-gap: 40px;
+    column-rule: 0.2px dashed black;
+    height: 200px;
+    width: 800px;
+}
+#linkedin{
+    text-align: center;
+    margin-right: 1050px;
+}
+#cv{
+    text-align: center;
+    margin-right: 800px;
+    margin-top: -37px;
+}
+
+
